@@ -1,0 +1,53 @@
+Run_Dataset_Info_Jul29
+=========================
+
+IT_Jobs_2030 from www.kaggle.com
+
+ https://www.kaggle.com/datasets/tusharsethi1685/it-jobs-2030
+
+---- df.head(10): ------
+Первые 10 строк:
+                     Domain   Job Title Projected Growth by 2030
+0    Augmented Reality (AR)    Engineer                      77%
+1               5G Networks   Developer                      70%
+2             Cybersecurity    Engineer                      36%
+3  Internet of Things (IoT)  Consultant                     138%
+4             Cybersecurity     Analyst                      86%
+5            Data Analytics     Manager                     110%
+6      Virtual Reality (VR)     Analyst                      53%
+7           Cloud Computing   Architect                     110%
+8            Data Analytics     Manager                      64%
+9           Cloud Computing  Consultant                      64%
+
+---- df.tail(): ------
+Последние 5 строк:
+                 Domain  Job Title Projected Growth by 2030
+13606020     Blockchain  Developer                      10%
+13606021       Robotics  Developer                      19%
+13606022  Cybersecurity   Engineer                     105%
+13606023  Cybersecurity    Analyst                      44%
+13606024  Cybersecurity    Manager                      84%
+
+---- df.info(): ------
+Информация о столбцах (наименование, тип):
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 13606025 entries, 0 to 13606024
+Data columns (total 3 columns):
+ #   Column                    Dtype 
+---  ------                    ----- 
+ 0   Domain                    object
+ 1   Job Title                 object
+ 2   Projected Growth by 2030  object
+dtypes: object(3)
+memory usage: 311.4+ MB
+None
+
+------df.describe(): -----
+статистические данные:
+                         Domain  Job Title Projected Growth by 2030
+count                  13606025   13606025                 13606025
+unique                       13          6                       72
+top     Artificial Intelligence  Architect                      77%
+freq                    1047730    2269578                   543372
+
+Process finished with exit code 0
